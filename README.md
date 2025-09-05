@@ -15,7 +15,9 @@
 
   the fireworks for the templates is at the bottom of 
   "engine.cpp" and that where this implementation 
-  starts.
+  starts.  again, i wanted this matrix implementation
+  to have the same feel as code written for embedded
+  systems.
   
   dedicated to Terry Davis.
 
