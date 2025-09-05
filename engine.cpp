@@ -472,7 +472,7 @@ template <class scalar> bool vector_t<scalar>::op_dotw_addb(scalar &dest, const 
 	if(inputs._size==weights._size)
 	{
 		scalar _dot; _dot-=_dot;
-		for(unsigned i=0;i<this->_size;i++){
+		for(unsigned i=0;i<inputs._size;i++){ // function call exists, skip it internally.
 			_dot += weights.read(i) * inputs.read(i);
 		}
 		dest = _dot + bias;
