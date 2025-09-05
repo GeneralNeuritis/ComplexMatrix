@@ -12,6 +12,10 @@
   perhaps later versions of c++ got too top heavy with 
   lambdas because everyone was thirsty for new syntax.
   the syntax is there if we need it.
+
+  the fireworks for the templates is at the bottom of 
+  "engine.cpp" and that where this implementation 
+  starts.
   
   dedicated to Terry Davis.
 
